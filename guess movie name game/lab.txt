@@ -1,0 +1,39 @@
+0-make a function to read a file of words and choose a word randomly
+input: None
+output: word
+
+1-make a function to take an input from the user
+
+the function must make sure that the entered letter wasn't entered before (whether right or wrong)
+so it takes history of entered letters as argument 
+and return the new entered letter after adding it to the history
+note: the function never exits until it takes a new letter, also if a user enters more than 1 letter it will take only the first character
+input: history_list
+output: letter
+
+
+2-make a function that checks if the entered letter is in the word or not
+so it takes the letter and the word as arguments
+returns True or False
+(using lambda function)
+
+input: letter, word
+output: True or false
+
+
+3-make a function that hides the word but only show correct entered letters
+
+eg. if word is 'banana' it should be ______
+if the user entered 'a', it becomes _a_a_a
+
+the function takes the word and the correctly entered list
+input: word, correct_list
+output: hidden word
+
+
+you will need 
+
+history_list: for all entered letters
+correct_list: for correctly entered letters
+tries: number of tries allowed (start with 6 and decrease with every wrong guess) (game over at tries = 0 or when the word is guessed correctly)
+
