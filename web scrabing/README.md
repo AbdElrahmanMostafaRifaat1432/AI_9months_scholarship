@@ -1,3 +1,5 @@
 # Webscrabing
-this folder is used for webscrabing projects That I have made
-it contains amazon webscrabing and webscrabing from other sources also like box office mojo and saving data to a csv file to deal with it after scrabing
+This folder is used for webscrabing projects That I have made
+It contains webscrabing from amazon and box office mojo using selenium and saving data to a csv file to deal with it after scrabing
+
+It also contains webscrabing using BeautifulSoup from youm7.com
